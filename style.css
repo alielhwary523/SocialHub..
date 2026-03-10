@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.left-side {
+  background: linear-gradient(to bottom, #007bff, #0056b3);
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-icon {
+  background-color: #0d6efd;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.feature-card {
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial {
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.right-side {
+  background-color: #f8f9fa;
+}
+
+.form-card {
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.input-group-text {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.form-control {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.card {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .left-side {
+    height: auto;
+  }
+  .right-side {
+    height: auto;
+  }
+}
